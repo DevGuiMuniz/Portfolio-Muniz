@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @keyframes animacaoParaCimaBaixo {
+          0% { transform: translateY(0); }
+          50% { transform: translateY(-20px); }
+          100% { transform: translateY(0); }
+        }
+    
+        .animar {
+          animation: animacaoParaCimaBaixo 2s infinite;
+        }
+      </style>
+    <link rel="stylesheet" href="/Styles/styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html">Home</a>
+            <a class="cabecalho_menu_link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao_conteudo">
+      <h1 class="apresentacao_conteudo_titulo">Uma apresentação de outro nível <strong class="Title-destaque">com um programador de qualidade em construção!</strong> </h1>
+      <p class="apresentacao_conteudo_texto">Olá! Sou Guilherme Muniz, desenvolvedor Full stack com especialidade em React, Javascript, C#, Java e SQL.<br>Sou uma pessoa curiosa e apaixonada pela a programação. Vamos conversar?</p>
+      <div class="button_apresentacao">
+        <h2 class="apresentacao_subtitulo">Acesse minhas redes:</h2>
+        <a class="apresentacao_button1" href="https://www.linkedin.com/in/guimuniiz/">
+            <img src="/imagens/linkedin.png" alt="icone-Likendin">
+            Linkedin
+        </a>
+        <a class="apresentacao_button1" href="https://github.com/DevGuiMuniz">
+            <img src="/imagens/github.png" alt="icone-Github">
+            Github
+        </a>
+      </div>
+     
+    </section>
+      <img class="apresentacao_img" src="/imagens/muniz 1.png" alt="Foto_Muniz">
+    </main>
+    <footer class="rodape">
+<p> © 2024 desenvolvido por Guilherme Muniz </p> </footer>
+<script src="/js/script.js"></script>
+</body>
+</html>

@@ -267,6 +267,7 @@ background-color: var(--cor--principal);
         padding: 10% 2%;    
     }
     .cabecalho_menu {
+        gap: 20px;
         justify-content: center;
     }
     .apresentacao {

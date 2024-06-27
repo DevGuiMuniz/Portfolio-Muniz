@@ -29,4 +29,22 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+const image6ID = 'murumuruimg';
 
+const img6 = document.getElementById(image6ID);
+if (img6) {
+  img6.classList.add('shadow2');
+}
+
+const image7ID = 'murumuruimg';
+
+const img7 = document.getElementById(image7ID);
+if (img7) {
+  img6.classList.add('shadow3');
+}
+
+const image8ID = "murumuruimg";
+const img8 = document.getElementById(image8ID);
+if (img8) {
+  img8.classList.add('shadow4');
+}

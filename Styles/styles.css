@@ -193,7 +193,10 @@ background-color: var(--cor--principal);
     align-items: center; 
 }
 .csharp{
-    width: 35%;
+    width: 25%;
+}
+.unityy{
+    width: 25%;
 }
 .projeto_conteudo_texto_Ecofury{
     font-size: 1.5rem;
@@ -245,6 +248,8 @@ background-color: var(--cor--principal);
   .shadow1 {
     box-shadow: 10px 10px 5px #8aff41bd;
   }
+  .shadow2{box-shadow: 10px 10px 5px #00000057
+}
 
 .projeto_conteudo_texto {
     font-size: 1.5rem;
@@ -283,6 +288,12 @@ background-color: var(--cor--principal);
     .projeto_conteudo_texto {
         font-size: 1.25rem;
     }
+    .unityy{
+        width: 50%;
+    }
+    .csharp{
+        width: 45%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -294,7 +305,7 @@ background-color: var(--cor--principal);
     }
 }
 
-/* Estilo base para garantir layout horizontal */
+
 .cabecalho_menu {
     display: flex;
     justify-content: center;

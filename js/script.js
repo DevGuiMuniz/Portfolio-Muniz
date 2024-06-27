@@ -1,24 +1,32 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const imgElement = document.querySelector('.apresentacao_img');
-    imgElement.classList.add('animar');
+  // Adiciona a classe 'animar' ao elemento com a classe 'apresentacao_img'
+  const imgElement = document.querySelector('.apresentacao_img');
+  if (imgElement) {
+      imgElement.classList.add('animar');
+  }
 
+  // IDs das imagens que precisam da classe 'shadow'
+  const imageIds = ['myImage', 'myImage2', 'myImage3', 'myImage4', 'myImage5'];
+  // ID da imagem que precisa da classe 'shadow1'
+  const image5Id = 'ecofuryimg';
+ 
+
+
+  // Adiciona a classe 'shadow' a todas as imagens listadas em imageIds
+  imageIds.forEach(id => {
+      const img = document.getElementById(id);
+      if (img) {
+          img.classList.add('shadow');
+      }
   });
 
-  
-  // Obtém a imagem pelo ID
-  const image = document.getElementById('myImage');
-  const image2 = document.getElementById('myImage2');
-  const image3 = document.getElementById('myImage3');
-  const image4 = document.getElementById('myImage4');
-  const img5 = document.getElementById("ecofuryimg");
+  // Adiciona a classe 'shadow1' à imagem com o ID image5Id
+  const img5 = document.getElementById(image5Id);
+  if (img5) {
+      img5.classList.add('shadow1');
+  }
+
+});
 
 
-  // Adiciona a classe 'shadow' à imagem
-  img5.classList.add('shadow1');
-  image.classList.add('shadow');
-  image2.classList.add('shadow');
-  image3.classList.add('shadow');
-  image4.classList.add('shadow');
 
-
-  

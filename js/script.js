@@ -48,3 +48,10 @@ const img8 = document.getElementById(image8ID);
 if (img8) {
   img8.classList.add('shadow4');
 }
+
+const image9ID = "geracaoImpactoImg";
+const img9 = document.getElementById(image9ID);
+if (img9) {
+  img9.classList.add('shadow5');
+}
+
